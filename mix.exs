@@ -24,7 +24,7 @@ defmodule Cowgirl.Mixfile do
   defp package do
     [
       maintainers: ["Larry Lv"],
-      licenses: "MIT",
+      licenses: ["MIT"],
       links: %{"GitHub" => "https://github.com/larrylv/cowgirl",
                "Docs" => "https://github.com/larrylv/cowgirl"}
     ]
