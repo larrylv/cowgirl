@@ -9,7 +9,7 @@ My goal is to build a small, fast, modular HTTP server written in Elixir, like t
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
+The package can be installed as:
 
   1. Add cowgirl to your list of dependencies in `mix.exs`:
 
