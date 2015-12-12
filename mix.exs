@@ -13,12 +13,13 @@ defmodule Cowgirl.Mixfile do
   end
 
   def application do
-    [applications: [:logger],
+    [applications: [:logger, :ranch],
       mod: {Cowgirl, []}]
   end
 
   defp deps do
     [
+      {:ranch, "~> 1.2.0"},
       {:inch_ex, ">= 0.0.0", only: :docs},
       {:earmark, "~> 0.1", only: :docs},
       {:ex_doc, "~> 0.11", only: :docs}
