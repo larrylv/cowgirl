@@ -1,4 +1,8 @@
 defmodule Cowgirl do
+  @moduledoc """
+  Cowgirl is a small, fast, modular HTTP server written in Elixir inspired by [Cowboy](https://github.com/ninenines/cowboy).
+  """
+
   use Application
 
   # See http://elixir-lang.org/docs/stable/elixir/Application.html
@@ -7,8 +11,7 @@ defmodule Cowgirl do
     import Supervisor.Spec, warn: false
 
     children = [
-      # Define workers and child supervisors to be supervised
-      # worker(Cowgirl.Worker, [arg1, arg2, arg3]),
+      worker(Cowgirl.Http, [8080]),
     ]
 
     # See http://elixir-lang.org/docs/stable/elixir/Supervisor.html
