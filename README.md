@@ -7,6 +7,8 @@ My goal is to build a small, fast, modular HTTP server written in Elixir, like t
 [![Docs](https://inch-ci.org/github/larrylv/cowgirl.svg?branch=master&style=flat-square)](https://inch-ci.org/github/larrylv/cowgirl)
 [![Hex.pm Downloads](https://img.shields.io/hexpm/dt/cowgirl.svg?style=flat-square)](https://hex.pm/packages/cowgirl)
 
+This project is currently in development on `dev` branch.
+
 ## Installation
 
 The package can be installed as:
