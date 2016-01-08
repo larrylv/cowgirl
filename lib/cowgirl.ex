@@ -11,7 +11,6 @@ defmodule Cowgirl do
     import Supervisor.Spec, warn: false
 
     children = [
-      worker(Cowgirl.Http, [8080]),
     ]
 
     # See http://elixir-lang.org/docs/stable/elixir/Supervisor.html
