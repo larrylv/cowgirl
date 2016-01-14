@@ -4,7 +4,7 @@ defmodule Cowgirl.Protocol do
   end
 
   def start(:https, ref, acceptors, trans_opts, protocol_opts) do
-    :ranch.start_listener(ref, acceptors, :ranch_ssl, trans_opts, Cowgirl.ProtocolHandler.Https, protocol_opts)
+    :ranch.start_listener(ref, acceptors, :ranch_ssl, trans_opts, Cowgirl.ProtocolHandler.Http, protocol_opts)
   end
 
   def stop(ref) do
