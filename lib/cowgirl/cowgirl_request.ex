@@ -6,7 +6,7 @@ defmodule Cowgirl.Request do
             method: "",
             headers: %{},
             path: "",
-            query: "",
+            query: %{},
             body: "",
             peer: {}
 
